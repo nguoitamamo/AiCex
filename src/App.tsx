@@ -15,7 +15,7 @@ import { PaymentHistory } from './pages/PaymentHistory';
 export function App() {
   return <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Contract />} />
         <Route path="/contract" element={<Contract />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/node" element={<Node />} />
